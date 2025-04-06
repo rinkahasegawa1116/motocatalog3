@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: motocatalog3
+
+logging:
+  level:
+    root: info
+  file:
+    name: app.log
+  logback:
+    rollingpolicy:
+      max-file-size: 1MB
