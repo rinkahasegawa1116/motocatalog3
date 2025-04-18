@@ -1,6 +1,15 @@
 spring:
-  application:
-    name: motocatalog3
+    datasource:
+        url: "jdbc:mysql://localhost/motocatalog3db"
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        username: develop
+        password: develop
+        
+
+    sql:
+        init:
+            mode: always
+            encoding: UTF-8
 
 logging:
   level:
@@ -10,3 +19,9 @@ logging:
   logback:
     rollingpolicy:
       max-file-size: 1MB
+ 
+ 
+mybatis:
+    configuration:
+        map-underscore-to-camel-case: true
+

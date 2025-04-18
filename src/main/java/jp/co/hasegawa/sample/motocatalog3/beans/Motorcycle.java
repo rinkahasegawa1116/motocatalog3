@@ -1,4 +1,4 @@
-package jp.co.hasegawa.sample.been;
+package jp.co.hasegawa.sample.motocatalog3.beans;
 
 import java.time.LocalDateTime;
 
